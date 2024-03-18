@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>    
+    <table>
+      <thead>
+        <tr>
+            <td>nombre</td>
+            <td>apellido</td>
+            <td>email</td>
+            <td>direccion</td>
+            <td>telefono</td>
+            <td>usuario</td>
+            <td>contrasena</td>
+            <td>operations</td>
+        </tr>
+      </thead>  
+      <tbody>
+        {% for usuario in usuarioos %}
+        <tr>
+            <td>{{usuario.1}}</td>
+            <td>{{usuario.2}}</td>
+            <td>{{usuario.3}}</td>
+            <td>{{usuario.4}}</td>
+            <td>{{usuario.5}}</td>
+            <td>{{usuario.6}}</td>
+            <td>{{usuario.7}}</td>
+            <td> <a href="/edit/{{usuario.0}}">Edit</a></td>
+            <td> <a href="/delete/{{usuario.0}}">Delete</a></td>
+        </tr>
+        {%endfor%}
+      </tbody>
+    </table>
+  </body>
+</html>

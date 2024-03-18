@@ -1,0 +1,49 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+      backdrop-filter: blue(10px);
+      background-image: url(https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg);
+      background-size: 70%;
+    
+    } 
+    
+    h1{
+      color: rgb(255, 255, 255);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding: 100px;
+    }
+    
+    .init{
+    width: 600px;
+    height: 960;
+    background-color: rgb(58, 49, 49);
+    padding: 30px;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(254, 254, 254);
+    text-align: center;  
+    float: right;
+    }
+    .controls{
+    width: 100%;
+    background:  #fff8f9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid 'calibri';
+    font-family: 'calibri'
+    }
+    
+    button{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px;
+    color:white;
+    margin: 1px;
+    font-size: 16px;
+    }
